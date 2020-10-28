@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.nav-wrapper,
+.page-footer {
+    background-color: burlywood;
+    box-shadow: 1px 1px 1px 1px slategray;
+}
+
+.heading {
+    background-color: burlywood;
+    text-align: center;
+    padding: 1rem;
+}
+
+.heading p {
+    margin-top: -0.5em;
+    padding-bottom: 1em;
+    margin-bottom: 0;
+    color: white;
+}
+
+h2 {
+    color: white;
+    padding: 15px;
+    margin: 0;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h4 {
+    margin: 0;
+    padding: 65px 2rem 3px 4rem;
+    color: darkslategray;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.divider {
+    width: 40vw;
+    margin: 0 0 2rem 4rem;
+}
+
+.section1 {
+    background-color: whitesmoke;
+    padding-bottom: 2rem;
+}
+
+.carousel {
+    height: 60vh;
+}
+
+.carousel .carousel-item {
+    height: 55vh;
+    width: 35vw;
+}
+
+.card {
+    background-color: wheat;
+}
+
+.section2 {
+    background-color: snow;
+    height: fit-content;
+    padding-bottom: 2rem;
+}
+
+.row {
+    margin: 0 3rem 0 3rem;
+}
+
+.row .card {
+    height: 50vh;
+}
+
+.section2 .card .card-image {
+    max-height: 43%;
+    overflow: hidden;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: darkgoldenrod;
+}
+
+.card .card-action a {
+    border: 1px solid darkgoldenrod;
+}
+
+.section2 .card .card-title {
+    color: rgb(245, 231, 196);
+    text-shadow: 1px grey;
+    margin-bottom: -1rem;
+}
+
+.section3 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 25vh;
+    background-color: whitesmoke;
+}
+
+.progress {
+    width: 40vw;
+    align-self: center;
+}
