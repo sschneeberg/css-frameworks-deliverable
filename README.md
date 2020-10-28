@@ -14,8 +14,6 @@ This site is made using the Materialize CSS framework. Documentation can be foun
 | Loading Bar | Indefinite loading bar to show page loading status|
 | Footer | Materialize footer format|
 | Grid | Materialize standardized grid format|
-|  | |
-
 
 The framework is primarily html and css with a single initializing function in javascript, so long as specific options are not intended to be used. 
 
@@ -24,3 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     M.AutoInit();
 });
 ```
+
+# Future considerations
+
+Please note this is currently in progress. I am working on a fourth section with a custom effect.  All commented out code, in each file is a component of this effect.  The current approach is proving too complicated and needs to be torn down and reapproached; however, the code has not been removed (only commented out) to preserve for future reference.

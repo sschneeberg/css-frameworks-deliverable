@@ -74,12 +74,13 @@ h4 {
     margin: 0 3rem 0 3rem;
 }
 
-.row .card {
+.section2 .row .card {
     height: 50vh;
+    overflow: scroll;
 }
 
 .section2 .card .card-image {
-    max-height: 43%;
+    max-height: 40%;
     overflow: hidden;
 }
 
@@ -97,16 +98,80 @@ h4 {
     margin-bottom: -1rem;
 }
 
+
+/*
+div.flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.section4 div.col {
+    background-color: wheat;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section4 div.col .card-title {
+    align-self: flex-start;
+}
+
+.section4 div.col img {
+    height: 15vh;
+}
+
+.section4 div.col .card-content {
+    visibility: hidden;
+}
+
+.expander {
+    height: 30vh;
+    z-index: 1;
+    opacity: 1;
+}
+
+.clicked {
+    flex-direction: row;
+}
+
+.clicked .card-content {
+    visibility: visible;
+}
+*/
+
 .section3 {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
-    height: 25vh;
+    height: fit-content;
     background-color: whitesmoke;
 }
 
-.progress {
+p.loading {
+    visibility: hidden;
+    align-self: center;
+    padding-bottom: 2em;
+}
+
+.section3:hover p.loading {
+    visibility: visible;
+}
+
+.container3 {
     width: 40vw;
     align-self: center;
+}
+
+@media (max-width: 800px) {
+    .section2 .row .card .card-title {
+        font-size: 1.25rem;
+    }
+    .section2 .card .card-image {
+        max-height: 25%;
+        overflow: hidden;
+    }
 }
